@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #dc3545;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-left: 20px;
+  color: black;
+}
+
+#CheckerForm {
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color:black;
+}
+
+input,
+input,
+select,
+#result {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus,
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #dc3545;
+  box-shadow: 0 0 4px rgba(220, 53, 69, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #dc3545;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b71c1c;
+}
+
+
+#result {
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+     cursor: not-allowed;
+}
+
+
+@media (max-width: 480px) {
+  #bloodCheckerForm {
+    padding: 15px;
+  }
+
+  input,
+  input,
+  select,
+  button {
+    font-size: 14px;
+  }
+}
