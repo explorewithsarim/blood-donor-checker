@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Blood Donor Checker</h1>
+    <div class="navbar">
+      <div class="heading">
+
+        <h1>Blood Donor Checker</h1>
+      </div>
+</div>
+    </div>
     <form id="CheckerForm">
       <label for="name">Name:</label>
       <input
@@ -43,12 +49,15 @@
       </button>
     </form>
     <h3>Eligible Blood Groups:</h3>
-    <input
+    <div class="result">
+
+      <input
       type="text"
       id="result"
       placeholder=" Result will appear here"
       readonly
-    />
+      />
+    </div>
 
     <script src="index.js"></script>
   </body>
